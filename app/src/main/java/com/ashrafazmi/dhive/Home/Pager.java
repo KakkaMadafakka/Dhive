@@ -7,6 +7,8 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 import com.ashrafazmi.dhive.Tab1;
 import com.ashrafazmi.dhive.Tab2;
 import com.ashrafazmi.dhive.Tab3;
+import com.ashrafazmi.dhive.Tab4;
+import com.ashrafazmi.dhive.Tab5;
 
 /**
  * Created by ash on 10/2/2018.
@@ -38,6 +40,12 @@ public class Pager extends FragmentStatePagerAdapter {
             case 2:
                 Tab3 tab3 = new Tab3();
                 return tab3;
+            case 3:
+                Tab4 tab4 = new Tab4();
+                return tab4;
+            case 4:
+                Tab5 tab5 = new Tab5();
+                return tab5;
             default:
                 return null;
         }
